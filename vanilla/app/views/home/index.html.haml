@@ -1,2 +1,8 @@
 %h1 HomeController#index
 %p Find me in app/views/home_controller/index.html.haml
+
+%ul.products
+  - for product in @paginated
+    %li=product
+
+= will_paginate(@paginated)

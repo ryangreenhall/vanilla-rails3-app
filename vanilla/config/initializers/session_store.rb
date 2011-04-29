@@ -6,3 +6,5 @@ Vanilla::Application.config.session_store :cookie_store, :key => '_vanilla_sessi
 # which shouldn't be used to store highly confidential information
 # (create the session table with "rails generate session_migration")
 # Vanilla::Application.config.session_store :active_record_store
+
+
