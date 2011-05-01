@@ -28,4 +28,5 @@ gem 'will_paginate'
 group :development, :test do
   gem 'webrat'
   gem 'rspec', '2.5.0'
+  gem 'rspec-rails'
 end

@@ -2,6 +2,7 @@ require 'will_paginate/array'
 
 class HomeController < ApplicationController
   def index
+    @title = "Home"
     collection = (1..50).to_a
     
     page_number = params[:page] || 1
