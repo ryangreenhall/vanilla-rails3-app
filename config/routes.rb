@@ -1,6 +1,8 @@
 Vanilla::Application.routes.draw do
   
   match "/" => "home#index"
+  match "/pagination" => "home#pagination"
+  match "/google/setup" => "home#setup"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
